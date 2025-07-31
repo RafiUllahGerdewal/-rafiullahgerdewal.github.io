@@ -1,0 +1,16 @@
+{
+  "name": "RafiUllah Gerdewal - Software Developer Portfolio",
+  "short_name": "RG Portfolio",
+  "description": "Software Developer with a Master's in Computer Science (MSc CS) - Portfolio showcasing modern web applications built with JavaScript, TypeScript, React.js, Node.js, Firebase, MongoDB Atlas, OCR tools, and AI-powered solutions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+} 
