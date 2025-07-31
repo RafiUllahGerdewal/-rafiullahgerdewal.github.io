@@ -86,7 +86,7 @@ export const skills: Skill[] = [
 ]
 
 export const contactData: ContactData = {
-  email: 'ra52voice@gmail.com',
+  email: 'rafiullah.gerdewal@yahoo.com',
   socialLinks: [
     {
       name: 'LinkedIn',

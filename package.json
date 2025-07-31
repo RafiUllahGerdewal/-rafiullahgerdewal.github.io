@@ -18,7 +18,7 @@
   ],
   "author": {
     "name": "RafiUllah Gerdewal",
-    "email": "rafiullah.gerdewal@example.com",
+    "email": "rafiullah.gerdewal@yahoo.com",
     "url": "https://rafiullahgerdewal.com"
   },
   "license": "MIT",
@@ -26,7 +26,7 @@
     "type": "git",
     "url": "https://github.com/rafiullahgerdewal/portfolio.git"
   },
-  "homepage": "https://rafiullahgerdewal.github.io/portfolio",
+  "homepage": "https://rafiullahgerdewal.github.io",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
