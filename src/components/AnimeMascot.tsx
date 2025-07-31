@@ -15,7 +15,7 @@ export const AnimeMascot = ({ className = '' }: MascotProps) => {
   const [dragOffset, setDragOffset] = useState(0)
   const [isColliding, setIsColliding] = useState(false)
   const mascotRef = useRef<HTMLDivElement>(null)
-  const animationRef = useRef<number>()
+  const animationRef = useRef<number | undefined>(undefined)
 
   // Position mascot near "Gerdewal" text
   useEffect(() => {
@@ -25,7 +25,7 @@ export const AnimeMascot = ({ className = '' }: MascotProps) => {
     
     // Small gentle movement around the center
     const animate = () => {
-      setPosition(prev => {
+      setPosition(() => {
         const center = window.innerWidth / 2 - 30
         const movement = Math.sin(Date.now() * 0.001) * 20 // Gentle sway
         const newPos = center + movement

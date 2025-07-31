@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 RafiUllah Gerdewal - Portfolio
 
 > **Software Developer with a Master's in Computer Science (MSc CS)**
@@ -205,3 +206,6 @@ Thank you for reading. Feel free to connect!
 ---
 
 **Built with ❤️ using React, TypeScript, and Tailwind CSS**
+=======
+# -rafiullahgerdewal.github.io
+>>>>>>> f7ee981aa50e16437a3246095462605a2d05dde1

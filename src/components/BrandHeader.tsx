@@ -1,4 +1,4 @@
-import { heroData } from '../data/portfolio'
+
 
 export const BrandHeader = () => {
   return (

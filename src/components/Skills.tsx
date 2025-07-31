@@ -1,4 +1,4 @@
-import { skills } from '../data/portfolio'
+
 
 export const Skills = () => {
   // Filter to only show the specified skills
