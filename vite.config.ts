@@ -8,17 +8,12 @@ export default defineConfig({
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {
-          if (assetInfo.name?.endsWith('.webmanifest')) {
-            return 'site.webmanifest'
+          if (assetInfo.name?.endsWith('.json') && assetInfo.name?.includes('manifest')) {
+            return 'manifest.json'
           }
           return assetInfo.name || 'assets/[name]-[hash][extname]'
         }
       }
-    }
-  },
-  server: {
-    headers: {
-      'Content-Type': 'application/javascript'
     }
   }
 })
